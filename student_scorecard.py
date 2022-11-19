@@ -36,7 +36,6 @@ def start():
 
     greeting()
     while not option == 'N':
-
         name, score = user_inputs()
         print(f"Student {name} added with {score}% score successfully")
         option = input("Continue? [Y/N]").upper()
