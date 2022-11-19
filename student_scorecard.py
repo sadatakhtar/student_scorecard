@@ -7,7 +7,6 @@ name_list = []
 score_list = []
 grade_list = []
 
-
 def greeting():
     # A Greeting function
     print('*' * 42)
@@ -15,6 +14,7 @@ def greeting():
     print('*' * 42)
 
 def user_inputs():
+    # Function to get user inputs
     student_name = input("Enter students name: ")
     student_score = int(input("Enter students score:"))
     name_list.append(student_name)
